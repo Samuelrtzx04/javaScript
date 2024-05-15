@@ -1,0 +1,17 @@
+let num = prompt("primeiro valor")
+let num1 = prompt("segundo valor")
+const op = prompt("escolha o operador(+,-,/)")
+switch(op){
+case '+':
+	result = num + num1;
+	console.log("num + num1",result)
+  break
+case '-':
+	result = num - num1;
+	console.log("num - num1",result)
+  break
+case '/':
+	result = num / num1;
+	console.log("num / num1",result)
+  break
+}
