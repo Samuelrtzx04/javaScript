@@ -1,0 +1,27 @@
+let escolha = 6;
+escolha = prompt('escolha um valor entre 1 e 6')
+let mensagem;
+switch (escolha) {
+  case '1':
+    mensagem = "vc escolheu 1"
+    break;
+  case '2':
+    mensagem = "vc escolheu 2"
+    break;
+  case '3':
+    mensagem = "vc escolheu 3"
+    break;
+  case '4':
+    mensagem = "vc escolheu 4"
+    break;
+  case '5':
+    mensagem = "vc escolheu 5"
+    break;
+ case '6':
+    mensagem = "vc escolheu 6"
+    break;
+  default:
+    mensagem = "escolheu um numero maior"
+}
+console.log(mensagem)
+
