@@ -1,0 +1,8 @@
+let num = prompt('digite um valor');
+if(num == 0){
+	console.log('numero invalido: '+num);
+}else if(num %2 == 0){
+	console.log('par: '+num);
+}else{
+	console.log('impar: '+num);
+}
