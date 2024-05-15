@@ -1,0 +1,15 @@
+const mensagem = 'bom dia';
+console.log (mensagem);
+
+let nome = prompt("digite seu nome");
+console.log ("nome:" + nome);
+
+let num1 = prompt("digite sua idade");
+
+if(num1 <= 18){
+	console.log ("jovem");
+}else if (num1 > 18 && num1 < 40){
+	console.log ("adulto");
+}else if (num1 > 40){
+	console.log ("velho")
+  }
